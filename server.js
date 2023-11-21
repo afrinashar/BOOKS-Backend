@@ -15,7 +15,13 @@ mongoose.connect('mongodb+srv://afrin:961215106001@cluster0.hbkqtqv.mongodb.net/
 const bookSchema = new mongoose.Schema({
   title: String,
   author: String,
-  published_year: Number
+  publishedYear: Number,
+  synopsis:String,
+  plot:String,
+  genre:String,
+  language:String,
+  price:String
+
 });
 
 const Book = mongoose.model('Book', bookSchema);
