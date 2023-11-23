@@ -9,7 +9,8 @@ const bookSchema = new mongoose.Schema({
   plot:String,
   genre:String,
   language:String,
-  price:String
+  price:String,
+  ImageUrl:String
 
 });
 
