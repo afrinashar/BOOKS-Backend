@@ -58,5 +58,5 @@ app.use(session({ secret: 'your_secret_key', resave: false, saveUninitialized: f
 //app.use('/', adminRoutes);
 
 // Set up the port for the server to run
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3005;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
