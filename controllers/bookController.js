@@ -4,7 +4,7 @@ const Books = require("../models/Books");
 const bookController = {
   getAllBooks: async (req, res) => {
     try {
-      const { page = 1, limit = 100, sort, search } = req.query;
+      const { page = 1, limit = 90, sort, search } = req.query;
 
       const query = {};
       if (search) {
