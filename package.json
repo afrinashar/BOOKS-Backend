@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node --watch app.js",
-    "start": "forever start app.js",
+    "start": "forever  stop app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
